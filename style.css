@@ -1,0 +1,80 @@
+:root{
+    --brand:#00b39b;
+    --brand-dark:#017b80;
+}
+
+body{
+    background:#f5f7fb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar{
+    background:var(--brand);
+}
+
+.navbar .nav-link{
+    color:#012b38 !important;
+    font-weight:bold;
+}
+
+.navbar .nav-link:hover{
+    color:#017b80 !important;
+}
+
+.navbar-brand{
+    color:#005540 !important;
+    font-size:1.4rem;
+}
+
+.hero{
+    padding:60px 0;
+}
+
+.hero-text h1{
+    font-size:42px;
+}
+
+.hero button{
+    background:var(--brand);
+    border:none;
+}
+
+.hero button:hover{
+    background:var(--brand-dark);
+}
+
+.hero-image{
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.2);
+}
+
+.section-title{
+    color:var(--brand);
+}
+
+.about-card{
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+    border:none;
+}
+
+/* PORTFOLIO */
+
+.project-card{
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    border:none;
+    transition:.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-card img{
+    height:180px;
+    object-fit:cover;
+}
+
+footer{
+    background:var(--brand);
+    color:#fff;
+}
